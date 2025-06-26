@@ -156,9 +156,11 @@ export default function Services() {
 
         <div className="text-center mt-16">
           <p className="text-slate-600 mb-6">Besoin d'une solution sur-mesure ?</p>
-          <button className="px-8 py-4 bg-slate-900 hover:bg-slate-800 text-white rounded-xl font-semibold transition-colors">
-            Discutons de votre projet
-          </button>
+          <a href= "https://app.simplymeet.me/devwebsolutions"  
+              target="_blank"
+              rel="noopener noreferrer" className="px-8 py-4 bg-slate-900 hover:bg-slate-800 text-white rounded-xl font-semibold transition-colors">
+              Discutons de votre projet
+          </a>
         </div>
       </div>
     </section>
