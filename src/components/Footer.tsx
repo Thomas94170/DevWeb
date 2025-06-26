@@ -11,7 +11,7 @@ export default function Footer() {
               <div className="p-2 bg-blue-600 rounded-lg">
                 <Code2 className="w-6 h-6 text-white" />
               </div>
-              <span className="text-xl font-bold">WebCraft</span>
+              <span className="text-xl font-bold">DevWeb Solutions</span>
             </div>
             <p className="text-slate-400 leading-relaxed mb-6 max-w-md">
               Votre partenaire pour une présence digitale performante. 
@@ -45,18 +45,18 @@ export default function Footer() {
             <ul className="space-y-3 text-slate-400">
               <li className="flex items-center space-x-2">
                 <Mail className="w-4 h-4" />
-                <span>contact@webcraft.fr</span>
+                <span>devwebsolutions94@gmail.com</span>
               </li>
               <li className="flex items-center space-x-2">
                 <Phone className="w-4 h-4" />
-                <span>+33 1 23 45 67 89</span>
+                <span>+33 7 83 98 71 64</span>
               </li>
             </ul>
           </div>
         </div>
 
         <div className="border-t border-slate-800 mt-12 pt-8 text-center text-slate-400">
-          <p>&copy; 2024 WebCraft. Tous droits réservés.</p>
+          <p>&copy; 2024 DevWeb Solutions. Tous droits réservés.</p>
         </div>
       </div>
     </footer>
