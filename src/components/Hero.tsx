@@ -33,10 +33,10 @@ export default function Hero() {
             Transformons ensemble votre vision en succès digital.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <button className="px-8 py-4 bg-blue-600 hover:bg-blue-700 text-white rounded-xl font-semibold text-lg transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl flex items-center">
+            <a href="#start" className="px-8 py-4 bg-blue-600 hover:bg-blue-700 text-white rounded-xl font-semibold text-lg transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl flex items-center">
               Commencer maintenant
               <ArrowRight className="w-5 h-5 ml-2" />
-            </button>
+            </a>
             <a href="#projects" className="px-8 py-4 border-2 border-slate-300 hover:border-blue-600 text-slate-700 hover:text-blue-600 rounded-xl font-semibold text-lg transition-all duration-300">
               Voir nos réalisations
             </a>

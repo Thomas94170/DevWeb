@@ -36,9 +36,12 @@ export default function Header() {
             <a href="#contact" className="text-slate-700 hover:text-blue-600 font-medium transition-colors">
               Contact
             </a>
-            <button className="px-6 py-2 bg-blue-600 hover:bg-blue-700 text-white rounded-lg font-semibold transition-colors">
-              Devis gratuit
-            </button>
+            <a  href= "https://app.simplymeet.me/devwebsolutions"  
+                target="_blank"
+                rel="noopener noreferrer"
+                className="px-6 py-2 bg-blue-600 hover:bg-blue-700 text-white rounded-lg font-semibold transition-colors">
+                  Devis gratuit
+            </a>
           </div>
 
           <button
@@ -61,9 +64,11 @@ export default function Header() {
               <a href="#contact" className="text-slate-700 hover:text-blue-600 font-medium">
                 Contact
               </a>
-              <button className="px-6 py-2 bg-blue-600 text-white rounded-lg font-semibold w-fit">
-                Devis gratuit
-              </button>
+              <a href= "https://app.simplymeet.me/devwebsolutions"  
+                 target="_blank"
+                 rel="noopener noreferrer" className="px-6 py-2 bg-blue-600 text-white rounded-lg font-semibold w-fit">
+                  Devis gratuit
+              </a>
             </div>
           </div>
         )}
