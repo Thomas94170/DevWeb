@@ -6,25 +6,25 @@ const frontProjects = [
   {
     title: 'Les Trésors Postaux',
     description: 'Site vitrine dédié à la philatélie, mettant en avant une collection de timbres rares.',
-    image: '../../public/image/philatelie.png',
+    image: '/image/philatelie.png',
     link: 'https://www.les-tresors-postaux.fr',
   },
   {
     title: 'NumisFrance',
     description: 'Plateforme dédiée aux collectionneurs de pièces de monnaie.',
-    image: '../../public/image/numisfrance.png',
+    image: '/image/numisfrance.png',
     link: 'https://www.numisfrance.fr',
   },
   {
     title: 'Papiliona',
     description: 'Site vitrine poétique dédié à la passion des papillons, avec galerie interactive',
-    image: '../../public/image/papiliona.png',
+    image: '/image/papiliona.png',
     link: 'https://www.papiliona.fr',
   },
   {
     title: 'Les Miroirs du Temps',
     description: 'Voyage à travers les siècles pour découvrir les miroirs',
-    image: '../../public/image/miroir.png',
+    image: '/image/miroir.png',
     link: 'https://www.les-miroirs-du-temps.fr',
   },
 ];
@@ -33,13 +33,13 @@ const backProjects = [
   {
     title: 'RenovTonDressing (Back-end)',
     description: 'API NestJS complète avec Prisma et Supabase. Authentification sécurisée avec JWT. Gestion complète des commandes, tickets, utilisateurs, catégories d’articles. Intégration des moyens de paiement (Stripe & PayPal). Suivi des colis avec l’API Colissimo. Architecture modulaire scalable (13 modules métiers) ',
-    image: '../../public/image/rtd-backend.png',
+    image: '/image/rtd-backend.png',
     link: 'https://github.com/Thomas94170/renovtondressing-api',
   },
   {
     title: 'Legalix (Système de rotation API)',
     description: 'Script NestJS avec cron toutes les 10s pour répartir intelligemment les requêtes entre 30 clés GPT-4/Mistral avec file d’attente et gestion des quotas.',
-    image: '../../public/image/legalix.png',
+    image: '/image/legalix.png',
     link: '', // ou "Repo privé sur demande"
   },
 ];
@@ -48,7 +48,7 @@ const appMobile = [
   {
     title: 'VTC Push',
     description: 'Application mobile permettant aux chauffeurs VTC franciliens de suivre en temps réel les perturbations des transports afin de les aider à optimiser leurs courses.',
-    image:'../../public/image/vtc-push.png',
+    image:'/image/vtc-push.png',
     link: 'https://github.com/Thomas94170/VTC-alert-client'
   },
 ];
@@ -57,7 +57,7 @@ const saas = [
   {
     title: 'Smart-Invoice',
     description: 'Saas permettant le suivi fiscal complet des auto-entrepreneurs ayant le statut de micro-entreprises, édition devis & facture, upload de documents externes.',
-    image:'../../public/image/smart-invoice.jpeg',
+    image:'/image/smart-invoice.jpeg',
     link:''
   }
 ]
