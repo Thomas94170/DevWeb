@@ -17,6 +17,10 @@ export default function Footer() {
               Votre partenaire pour une présence digitale performante. 
               Développement web moderne, SEO et stratégies marketing qui convertissent.
             </p>
+            <p className="text-slate-400 text-sm mt-2">
+            Développeur freelance basé en Île-de-France : Paris, Essonne, Hauts-de-Seine, Val-de-Marne, Seine-Saint-Denis.
+            </p>
+            <br/>
             <div className="flex space-x-4">
               <a href="#" className="w-10 h-10 bg-slate-800 hover:bg-blue-600 rounded-lg flex items-center justify-center transition-colors">
                 <Linkedin className="w-5 h-5" />
